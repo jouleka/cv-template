@@ -1,0 +1,115 @@
+.page {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  width: 50%;
+  min-height: 297mm;
+  padding: 20mm;
+  margin: 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 20px;
+}
+
+.profileImage {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3498db;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 18px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+.contactInfo {
+  font-size: 14px;
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.sectionIcon {
+  margin-right: 10px;
+  color: #3498db;
+}
+
+.experienceItem {
+  margin-bottom: 15px;
+}
+
+.companyName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.jobTitle {
+  font-size: 16px;
+  color: #3498db;
+  font-weight: bold;
+}
+
+.dateLocation {
+  font-size: 14px;
+  color: #7f8c8d;
+  margin-bottom: 5px;
+}
+
+.skillGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.skillCategory {
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 5px;
+}
+
+.pageBreak {
+  page-break-before: always;
+  margin-top: 30px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.contactItemText {
+  margin-left: 10px;
+}
+
+.experienceList {
+  padding-left: 20px;
+}
