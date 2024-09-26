@@ -1,46 +1,35 @@
-// types.ts
-
-export interface ContactProps {
-    name: string;
-    title: string;
+export interface CVData {
+  name: string;
+  title: string;
+  profileImage: string;
+  contact: {
+    website: string;
     email: string;
     phone: string;
-    github: string;
     linkedin: string;
-  }
-  
-  export interface ExperienceProps {
-    experience: Array<{
-      title: string;
-      company: string;
-      date: string;
-      responsibilities: string[];
-    }>;
-  }
-  
-  export interface EducationProps {
+    github: string;
+    location: string;
+  };
+  summary: string;
+  experience: Array<{
+    company: string;
+    title: string;
+    date: string;
+    location: string;
+    description: string[];
+  }>;
+  skills: {
+    [category: string]: string;
+  };
+  education: Array<{
+    institution: string;
     degree: string;
-    school: string;
-    year: string;
-  }
-  
-  export interface SkillsProps {
-    skills: string[];
-  }
-  
-  export interface ProjectProps {
-    projects: Array<{
-      name: string;
-      description: string;
-      link: string;
-    }>;
-  }
-  
-  export interface ResumeProps {
-    contactInfo: ContactProps;
-    summary: string;
-    experience: ExperienceProps['experience'];
-    education: EducationProps;
-    skills: SkillsProps['skills'];
-    projects: ProjectProps['projects'];
-  }
+    date: string;
+    location: string;
+    details: string[];
+  }>;
+  languages: Array<{
+    language: string;
+    proficiency: string;
+  }>;
+}
