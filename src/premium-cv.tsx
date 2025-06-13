@@ -51,7 +51,7 @@ const ProfessionalTechCV: React.FC = () => {
         ))}
       </section>
 
-      <section className={styles.section}>
+      <section className={`${styles.section} ${styles.skillSection}`}>
         <h3 className={styles.sectionTitle}>
           <Code className={styles.sectionIcon} size={18} /> Technical Expertise
         </h3>

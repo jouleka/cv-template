@@ -29,7 +29,7 @@ This project is a personal, customizable CV (Curriculum Vitae) template built us
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/cv-template.git
+   git clone https://github.com/jouleka/cv-template.git
    cd cv-template
    ```
 

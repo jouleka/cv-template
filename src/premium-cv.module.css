@@ -103,6 +103,10 @@
   font-size: 10pt;
 }
 
+.skillSection {
+  page-break-before: always;
+}
+
 .skillCategory {
   font-weight: bold;
   color: #2c3e50;
