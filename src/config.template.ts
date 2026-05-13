@@ -42,6 +42,14 @@ const cvData: CVData = {
   languages: [
     { language: "Language 1", proficiency: "Proficiency Level" },
     { language: "Language 2", proficiency: "Proficiency Level" },
+  ],
+  projects: [
+    {
+      name: "Project Name",
+      url: "project-url.com",
+      description: "Short description of what the project does and why it matters.",
+      tech: "Tech 1, Tech 2, Tech 3"
+    }
   ]
 };
 

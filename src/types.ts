@@ -32,4 +32,10 @@ export interface CVData {
     language: string;
     proficiency: string;
   }>;
+  projects?: Array<{
+    name: string;
+    url?: string;
+    description: string;
+    tech?: string;
+  }>;
 }

@@ -69,8 +69,24 @@ const ProfessionalTechCV: React.FC = () => {
         <h3 className={styles.sectionTitle}>
           <Briefcase className={styles.sectionIcon} size={18} /> Key Projects
         </h3>
+        {cvData.projects?.map((project, index) => (
+          <div key={index} className={styles.experienceItem}>
+            <div className={styles.companyName}>{project.name}</div>
+            {project.url && (
+              <div className={styles.jobTitle}>
+                <a href={`https://${project.url}`} target="_blank" rel="noopener noreferrer" className={styles.projectsLink}>
+                  {project.url} <ExternalLink size={12} className={styles.externalLinkIcon} />
+                </a>
+              </div>
+            )}
+            <p style={{ marginTop: 6, marginBottom: project.tech ? 6 : 0 }}>{project.description}</p>
+            {project.tech && (
+              <p className={styles.dateLocation}>Tech: {project.tech}</p>
+            )}
+          </div>
+        ))}
         <p className={styles.projectsIntro}>
-          View my portfolio on my personal website at {' '}
+          View my full portfolio at {' '}
           <a href={`https://${cvData.contact.website}`} target="_blank" rel="noopener noreferrer" className={styles.projectsLink}>
             {cvData.contact.website} <ExternalLink size={12} className={styles.externalLinkIcon} />
           </a>
