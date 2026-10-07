@@ -25,3 +25,6 @@ dist-ssr
 
 # Personal config file
 src/config.ts
+
+# TypeScript build cache
+*.tsbuildinfo

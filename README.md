@@ -22,7 +22,7 @@ This project is a personal, customizable CV (Curriculum Vitae) template built us
 
 ### Prerequisites
 
-- Node.js (version 14 or later recommended)
+- Node.js 22.18 or newer (CI uses Node.js 24)
 - npm (usually comes with Node.js)
 
 ### Installation
@@ -35,7 +35,7 @@ This project is a personal, customizable CV (Curriculum Vitae) template built us
 
 2. Install dependencies:
    ```
-   npm install
+   npm ci
    ```
 
 3. Set up your personal config file:
@@ -90,3 +90,9 @@ If you'd like to contribute to this project, please fork the repository and crea
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+## Dependency security
+
+Run `npm audit`, `npm run lint`, and `npm run build` after copying the sample
+config as described above. CI repeats these checks from a clean install.
+Dependabot checks npm packages and GitHub Actions weekly.
