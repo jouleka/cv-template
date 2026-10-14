@@ -12,26 +12,26 @@ const cvData: CVData = {
     github: "github.com/your-username",
     location: "Your Location"
   },
-  summary: "Full Stack JavaScript Developer with 5+ years of experience building React.js, Next.js and Angular applications, Node.js services, and Ionic apps for iOS and Android. Experience includes legacy frontend migrations, browser call-state integrations and ownership of mobile releases.",
+  summary: "Full Stack JavaScript Developer with 6 years of experience building React.js, Next.js and Angular applications, Node.js services, and Ionic apps for iOS and Android. Technical ownership spans frontend architecture, legacy migrations, browser call-state integrations and mobile releases.",
   experience: [
     {
       company: "Falcar (Communicator)",
-      title: "Frontend & Mobile Developer (Contract)",
+      title: "Lead Frontend & Mobile Developer (Contract)",
       date: "Mar 2025 - Present",
       location: "Remote",
       description: [
-        "Built Communicator's Ionic mobile app from scratch, delivering a shared codebase for iOS and Android.",
+        "Led development of Communicator's Ionic mobile app from scratch, delivering a shared codebase for iOS and Android.",
         "Owned mobile delivery across both platforms, including platform-specific builds, release preparation and App Store / Google Play submissions.",
         "Developed the Angular frontend for a cloud workforce-management platform covering attendance, scheduling and employee self-service.",
       ]
     },
     {
       company: "myCicero",
-      title: "Frontend Developer",
+      title: "Frontend Developer / Frontend Architecture Lead",
       date: "Jan 2024 - Oct 2026",
       location: "Tirana, Albania (Remote)",
       description: [
-        "Built a multi-tenant Angular monorepo with shared application logic and content-driven interfaces for brand-specific customization.",
+        "Led frontend architecture for a multi-tenant Angular monorepo, with shared application logic and content-driven interfaces for brand-specific customization.",
         "Integrated REST APIs and introduced NgRx state management to keep data and frontend behavior consistent across tenants.",
       ]
     },
@@ -48,11 +48,11 @@ const cvData: CVData = {
     },
     {
       company: "Gutenberg Technology",
-      title: "Full Stack JavaScript Developer",
+      title: "Full Stack JavaScript Developer / Frontend Migration Lead",
       date: "Mar 2022 - May 2025",
       location: "Boston, Massachusetts, United States (Remote)",
       description: [
-        "Modernized an e-learning frontend spanning AngularJS and React.js, migrating legacy functionality to Angular 15.",
+        "Led frontend modernization across AngularJS and React.js, migrating legacy e-learning functionality to Angular 15.",
         "Worked across React.js and Angular UI code and Node.js / HapiJS services to deliver and integrate product features.",
         "Expanded release testing to catch regressions during frontend migration and feature development.",
       ]
