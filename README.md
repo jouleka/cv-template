@@ -53,6 +53,10 @@ To customize the CV with your personal information:
 
 Note: The `src/config.ts` file is ignored by git to keep your personal information private. If you need to reset to the template version, you can copy `src/config.template.ts` again.
 
+The template includes Jurgen Leka's updated professional summary, experience,
+and technical skills. If you already have a personal `src/config.ts`, copy those
+three fields into it to retain your contact details, education, and projects.
+
 ### Running the Application
 
 To start the development server:
