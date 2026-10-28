@@ -12,7 +12,7 @@ const cvData: CVData = {
     "github": "github.com/jouleka",
     "location": "Tirana, Albania"
   },
-  "summary": "Full Stack JavaScript Developer with 6 years of experience building React.js, Next.js and Angular applications, Node.js services, and Ionic apps for iOS and Android. Technical ownership spans frontend architecture, legacy migrations, API integrations and mobile releases.",
+  "summary": "Full Stack JavaScript Developer with 6 years of experience building React.js, Next.js and Angular applications and Node.js services. Leads frontend architecture, state management, legacy migrations and release delivery, with hands-on work in CI/CD, production builds and deployment automation.",
   "experience": [
     {
       "company": "Moveo",
@@ -20,13 +20,12 @@ const cvData: CVData = {
       "date": "Jan 2024 - Present",
       "location": "Tirana, Albania (Remote)",
       "description": [
-        "Led frontend architecture for a multi-tenant Angular monorepo, with shared application logic and configurable interfaces for brand-specific customization.",
-        "Integrated REST APIs and introduced NgRx state management to keep frontend data and behavior consistent across tenants.",
-        "Built an Ionic mobile app from scratch, delivering a shared codebase for iOS and Android.",
-        "Owned platform-specific builds, release preparation, and App Store and Google Play submissions.",
-        "Developed workforce-management features covering attendance, scheduling and employee self-service.",
-        "Web & mobile: Angular, TypeScript, RxJS, NgRx, Ionic, UIkit",
-        "Architecture & tools: Monorepos, multi-tenant applications, REST APIs, Webpack, Git"
+        "Led frontend architecture for a multi-tenant Angular monorepo, structuring shared application logic and configurable interfaces for multiple brands.",
+        "Introduced NgRx state management and used RxJS with REST API integrations to keep application data and UI behavior consistent across tenants.",
+        "Delivered attendance, scheduling and employee self-service workflows, connecting Angular screens to backend services.",
+        "Built an Ionic app from scratch with a shared iOS/Android codebase and owned platform-specific builds, release preparation and store submissions.",
+        "Frontend: Angular, TypeScript, RxJS, NgRx, Ionic, UIkit",
+        "Architecture & tooling: Monorepos, multi-tenant applications, REST APIs, Webpack, Git"
       ]
     },
     {
@@ -35,14 +34,13 @@ const cvData: CVData = {
       "date": "Sep 2021 - Mar 2024",
       "location": "Remote",
       "description": [
-        "Led frontend modernization of an e-learning platform, migrating legacy AngularJS functionality to Angular 15 and maintaining React.js features.",
-        "Delivered product features across Angular and React.js interfaces and Node.js / HapiJS services.",
-        "Developed product data-management features with PolymerJS, Java / Spring Boot and PostgreSQL.",
-        "Improved responsive layouts and mobile usability across the frontend.",
-        "Expanded release testing to catch regressions during frontend migration and feature development.",
-        "Web: Angular, AngularJS, React.js, PolymerJS, TypeScript, JavaScript",
-        "Backend: Node.js, HapiJS, Java, Spring Boot",
-        "Data: PostgreSQL, RethinkDB"
+        "Led frontend modernization of an e-learning platform, migrating legacy AngularJS functionality to Angular 15 while maintaining React.js features.",
+        "Delivered full-stack product features across Angular and React.js interfaces and Node.js / HapiJS services.",
+        "Developed product data-management features with PolymerJS, Java / Spring Boot and PostgreSQL, improving responsive layouts and mobile usability.",
+        "Expanded regression testing for frontend migrations and product changes to catch release issues before delivery.",
+        "Mentored interns through onboarding, ticket breakdown and hands-on technical support.",
+        "Frontend: Angular, AngularJS, React.js, PolymerJS, TypeScript, JavaScript",
+        "Backend & data: Node.js, HapiJS, Java, Spring Boot, PostgreSQL, RethinkDB"
       ]
     },
     {
@@ -58,10 +56,12 @@ const cvData: CVData = {
     }
   ],
   "skills": {
-    "Frontend": "React.js, Next.js, Angular, AngularJS, TypeScript, JavaScript, RxJS, NgRx, HTML5, CSS / SCSS, Tailwind CSS, UIkit",
-    "Backend": "Node.js, HapiJS, Java / Spring Boot, REST APIs, GraphQL",
-    "Mobile": "Ionic, iOS / Android releases",
-    "Data & Delivery": "PostgreSQL, MongoDB, RethinkDB, Docker, CI/CD, Git, Webpack, monorepos, multi-tenant applications"
+    "Frontend": "React.js, Next.js, Angular, AngularJS, TypeScript, JavaScript, HTML5, CSS / SCSS, Tailwind CSS, UIkit",
+    "Architecture & State": "RxJS, NgRx, monorepos, multi-tenant applications, shared UI logic, REST API integration",
+    "Backend & Data": "Node.js, HapiJS, Java / Spring Boot, REST APIs, GraphQL, PostgreSQL, MongoDB, RethinkDB",
+    "Build & Quality": "TypeScript checks, ESLint, Vite, Webpack, regression testing, release validation",
+    "Release & Deployment": "GitHub Actions, CI/CD, Git, Cloudflare Workers, Docker, Kamal, production verification",
+    "Mobile Delivery": "Ionic, iOS / Android builds, code signing, TestFlight, App Store / Google Play releases"
   },
   "education": [
     {
@@ -98,8 +98,8 @@ const cvData: CVData = {
     {
       "name": "MySigner",
       "url": "mysigner.dev",
-      "description": "Founded and built a SaaS that automates iOS and Android app signing and deployment to TestFlight, the App Store and Google Play. Handles provisioning profiles, certificates and keystores through a single CLI command.",
-      "tech": "Ruby on Rails 8, Hotwire, PostgreSQL, Solid Queue, Tailwind CSS, App Store Connect API, Google Play Developer API, Docker, Kamal"
+      "description": "Built a Rails dashboard, API and Ruby CLI that automate code signing, build uploads and release submissions for iOS and Android. Integrated App Store Connect and Google Play APIs for TestFlight delivery, store metadata and scheduled/phased releases. Added GitHub Actions workflows and Docker/Kamal deployment automation.",
+      "tech": "Ruby on Rails 8, Ruby CLI, Hotwire, PostgreSQL, Solid Queue, Tailwind CSS, App Store Connect API, Google Play Developer API, GitHub Actions, Docker, Kamal"
     }
   ]
 };
