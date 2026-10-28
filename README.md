@@ -51,11 +51,13 @@ To customize the CV with your personal information:
 2. Update the `cvData` object with your personal information, work experience, education, skills, and languages
 3. If needed, modify the styling in `src/premium-cv.module.css` to match your preferences
 
-Note: The `src/config.ts` file is ignored by git to keep your personal information private. If you need to reset to the template version, you can copy `src/config.template.ts` again.
+The checked-in `src/config.template.ts` contains Jurgen Leka's public CV profile,
+including the current Moveo, Helius, and Rayonit experience. `src/config.ts` is
+ignored by git so local customizations stay local. Copy the checked-in profile
+again when preparing a production release.
 
-The template includes Jurgen Leka's updated professional summary, experience,
-and technical skills. If you already have a personal `src/config.ts`, copy those
-three fields into it to retain your contact details, education, and projects.
+The profile photo is in `public/assets/linkedin_profile.jpeg`. The downloadable
+CV is `public/resume.pdf`, also published at `jurgenleka.com/resume.pdf`.
 
 ### Running the Application
 
@@ -76,6 +78,22 @@ npm run build
 ```
 
 This will generate optimized files in the `dist` directory, ready for deployment.
+
+### Production deployment
+
+The resume app runs on Cloudflare Workers using the static assets configuration
+in `wrangler.jsonc`. Prepare the committed public profile, verify the build, and
+deploy with an authenticated Wrangler session:
+
+```bash
+cp src/config.template.ts src/config.ts
+npx wrangler whoami
+npm run lint
+npm run deploy
+```
+
+Update `public/resume.pdf` together with the profile, and publish the same PDF to
+the portfolio's `public/resume.pdf` so both download URLs stay consistent.
 
 ## Project Structure
 

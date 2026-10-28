@@ -1,110 +1,105 @@
-import { CVData } from './types';
+import type { CVData } from './types';
 
 const cvData: CVData = {
-  name: "Your Name",
-  title: "Full Stack JavaScript Developer",
-  profileImage: "/path/to/your/profile/image.jpg",
-  contact: {
-    website: "your-website.com",
-    email: "your.email@example.com",
-    phone: "Your Phone Number",
-    linkedin: "linkedin.com/in/your-profile",
-    github: "github.com/your-username",
-    location: "Your Location"
+  "name": "Jurgen Leka",
+  "title": "Full Stack JavaScript Developer",
+  "profileImage": "/assets/linkedin_profile.jpeg",
+  "contact": {
+    "website": "www.jurgenleka.com",
+    "email": "lekacoding@gmail.com",
+    "phone": "(+355) 0694456374",
+    "linkedin": "linkedin.com/in/jurgen-leka-31470119a",
+    "github": "github.com/jouleka",
+    "location": "Tirana, Albania"
   },
-  summary: "Full Stack JavaScript Developer with 6 years of experience building React.js, Next.js and Angular applications, Node.js services, and Ionic apps for iOS and Android. Technical ownership spans frontend architecture, legacy migrations, browser call-state integrations and mobile releases.",
-  experience: [
+  "summary": "Full Stack JavaScript Developer with 6 years of experience building React.js, Next.js and Angular applications, Node.js services, and Ionic apps for iOS and Android. Technical ownership spans frontend architecture, legacy migrations, API integrations and mobile releases.",
+  "experience": [
     {
-      company: "Falcar (Communicator)",
-      title: "Lead Frontend & Mobile Developer (Contract)",
-      date: "Mar 2025 - Present",
-      location: "Remote",
-      description: [
-        "Led development of Communicator's Ionic mobile app from scratch, delivering a shared codebase for iOS and Android.",
-        "Owned mobile delivery across both platforms, including platform-specific builds, release preparation and App Store / Google Play submissions.",
-        "Developed the Angular frontend for a cloud workforce-management platform covering attendance, scheduling and employee self-service.",
+      "company": "Moveo",
+      "title": "Lead Frontend Developer",
+      "date": "Jan 2024 - Present",
+      "location": "Tirana, Albania (Remote)",
+      "description": [
+        "Led frontend architecture for a multi-tenant Angular monorepo, with shared application logic and configurable interfaces for brand-specific customization.",
+        "Integrated REST APIs and introduced NgRx state management to keep frontend data and behavior consistent across tenants.",
+        "Built an Ionic mobile app from scratch, delivering a shared codebase for iOS and Android.",
+        "Owned platform-specific builds, release preparation, and App Store and Google Play submissions.",
+        "Developed workforce-management features covering attendance, scheduling and employee self-service.",
+        "Web & mobile: Angular, TypeScript, RxJS, NgRx, Ionic, UIkit",
+        "Architecture & tools: Monorepos, multi-tenant applications, REST APIs, Webpack, Git"
       ]
     },
     {
-      company: "myCicero",
-      title: "Frontend Developer / Frontend Architecture Lead",
-      date: "Jan 2024 - Oct 2026",
-      location: "Tirana, Albania (Remote)",
-      description: [
-        "Led frontend architecture for a multi-tenant Angular monorepo, with shared application logic and content-driven interfaces for brand-specific customization.",
-        "Integrated REST APIs and introduced NgRx state management to keep data and frontend behavior consistent across tenants.",
-      ]
-    },
-    {
-      company: "Callblitz",
-      title: "JavaScript Developer (Part-time)",
-      date: "Mar 2025 - May 2026",
-      location: "Remote",
-      description: [
-        "Resolved call connectivity and integration issues in the JavaScript browser extension used alongside Callblitz's video platform.",
-        "Implemented DOM-based call-state detection in third-party tools such as HubSpot, passing call events to the backend to keep Callblitz's presence display aligned with active calls.",
-        "Developed Angular frontend and Node.js backend features, and contributed to native macOS and Windows applications in Swift and C#.",
-      ]
-    },
-    {
-      company: "Gutenberg Technology",
-      title: "Full Stack JavaScript Developer / Frontend Migration Lead",
-      date: "Mar 2022 - May 2025",
-      location: "Boston, Massachusetts, United States (Remote)",
-      description: [
-        "Led frontend modernization across AngularJS and React.js, migrating legacy e-learning functionality to Angular 15.",
-        "Worked across React.js and Angular UI code and Node.js / HapiJS services to deliver and integrate product features.",
-        "Expanded release testing to catch regressions during frontend migration and feature development.",
-      ]
-    },
-    {
-      company: "Keendoo",
-      title: "Full Stack Developer",
-      date: "Sep 2021 - Mar 2022",
-      location: "Nantes, France (Remote)",
-      description: [
+      "company": "Helius",
+      "title": "Full Stack Developer / Frontend Migration Lead",
+      "date": "Sep 2021 - Mar 2024",
+      "location": "Remote",
+      "description": [
+        "Led frontend modernization of an e-learning platform, migrating legacy AngularJS functionality to Angular 15 and maintaining React.js features.",
+        "Delivered product features across Angular and React.js interfaces and Node.js / HapiJS services.",
         "Developed product data-management features with PolymerJS, Java / Spring Boot and PostgreSQL.",
         "Improved responsive layouts and mobile usability across the frontend.",
+        "Expanded release testing to catch regressions during frontend migration and feature development.",
+        "Web: Angular, AngularJS, React.js, PolymerJS, TypeScript, JavaScript",
+        "Backend: Node.js, HapiJS, Java, Spring Boot",
+        "Data: PostgreSQL, RethinkDB"
       ]
     },
     {
-      company: "Rayonit",
-      title: "Full Stack Developer",
-      date: "Jun 2021 - Sep 2021",
-      location: "Tirana, Albania",
-      description: [
+      "company": "Rayonit",
+      "title": "Full Stack Developer",
+      "date": "Jun 2021 - Aug 2021",
+      "location": "Tirana, Albania",
+      "description": [
         "Built intelligent transportation software using Angular, TypeScript, Java / Spring Boot and MongoDB.",
         "Integrated connected sensors for real-time traffic data collection.",
+        "Stack: Angular, TypeScript, Java, Spring Boot, MongoDB"
       ]
-    },
+    }
   ],
-  skills: {
+  "skills": {
     "Frontend": "React.js, Next.js, Angular, AngularJS, TypeScript, JavaScript, RxJS, NgRx, HTML5, CSS / SCSS, Tailwind CSS, UIkit",
     "Backend": "Node.js, HapiJS, Java / Spring Boot, REST APIs, GraphQL",
-    "Mobile & Desktop": "Ionic, iOS / Android releases, Swift, C#, browser extensions",
-    "Data & Delivery": "PostgreSQL, MongoDB, RethinkDB, Docker, CI/CD, Git, Webpack, monorepos, multi-tenant applications",
+    "Mobile": "Ionic, iOS / Android releases",
+    "Data & Delivery": "PostgreSQL, MongoDB, RethinkDB, Docker, CI/CD, Git, Webpack, monorepos, multi-tenant applications"
   },
-  education: [
+  "education": [
     {
-      institution: "University Name",
-      degree: "Your Degree",
-      date: "Start Year – End Year",
-      location: "University Location",
-      details: [
-        "Relevant stuff"
+      "institution": "Canadian Institute of Technology (CIT)",
+      "degree": "Bachelor's Degree in Computer Engineering",
+      "date": "Oct 2018 - Sep 2021",
+      "location": "Tirana, Albania",
+      "details": [
+        "Coursework: Data Structures, Algorithms, Software Engineering, Database Management Systems and Web Development.",
+        "Built a full-stack web chat application with WhatsApp-style features. GPA: 3.8/4.0.",
+        "Member of CIT's Coding Club; participated in hackathons."
       ]
-    },
+    }
   ],
-  languages: [
-    { language: "Language 1", proficiency: "Proficiency Level" },
-    { language: "Language 2", proficiency: "Proficiency Level" },
-  ],
-  projects: [
+  "languages": [
     {
-      name: "Project Name",
-      url: "project-url.com",
-      description: "Short description of what the project does and why it matters.",
-      tech: "Tech 1, Tech 2, Tech 3"
+      "language": "Albanian",
+      "proficiency": "Native"
+    },
+    {
+      "language": "English",
+      "proficiency": "Professional (C1/C2)"
+    },
+    {
+      "language": "Italian",
+      "proficiency": "Professional (B2/C1)"
+    },
+    {
+      "language": "German",
+      "proficiency": "Elementary (A2/B1)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "MySigner",
+      "url": "mysigner.dev",
+      "description": "Founded and built a SaaS that automates iOS and Android app signing and deployment to TestFlight, the App Store and Google Play. Handles provisioning profiles, certificates and keystores through a single CLI command.",
+      "tech": "Ruby on Rails 8, Hotwire, PostgreSQL, Solid Queue, Tailwind CSS, App Store Connect API, Google Play Developer API, Docker, Kamal"
     }
   ]
 };
