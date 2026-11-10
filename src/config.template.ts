@@ -36,10 +36,10 @@ const cvData: CVData = {
       "description": [
         "Led frontend modernization of an e-learning platform, migrating legacy AngularJS functionality to Angular 15 while maintaining React.js features.",
         "Delivered full-stack product features across Angular and React.js interfaces and Node.js / HapiJS services.",
-        "Developed product data-management features with PolymerJS, Java / Spring Boot and PostgreSQL, improving responsive layouts and mobile usability.",
+        "Developed product data-management features with Vue.js, Java / Spring Boot and PostgreSQL, improving responsive layouts and mobile usability.",
         "Expanded regression testing for frontend migrations and product changes to catch release issues before delivery.",
         "Mentored interns through onboarding, ticket breakdown and hands-on technical support.",
-        "Frontend: Angular, AngularJS, React.js, PolymerJS, TypeScript, JavaScript",
+        "Frontend: Angular, AngularJS, React.js, Vue.js, TypeScript, JavaScript",
         "Backend & data: Node.js, HapiJS, Java, Spring Boot, PostgreSQL, RethinkDB"
       ]
     },
